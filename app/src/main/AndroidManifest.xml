@@ -12,12 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Study">
         <activity
-            android:name=".coroutine.CoroutineActivity"
+            android:name=".retrofitrxjava.RetrofitRxjavaActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".coroutine.CoroutineActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
