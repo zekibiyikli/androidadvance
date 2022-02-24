@@ -11,11 +11,7 @@
 + LiveData
 + Room
 + Coroutine
-
-
-
-
-- Retrofit - RxJava
++ Retrofit - RxJava
 - Dagger - Hilt
 - Koin
 - Compose
