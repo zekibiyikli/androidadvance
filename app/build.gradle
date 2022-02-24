@@ -50,5 +50,10 @@ dependencies {
     implementation 'com.chibatching.kotpref:kotpref:2.13.1'
     //Glide
     implementation 'com.github.bumptech.glide:glide:3.7.0'
+    //Room
+    def roomVersion = "2.4.2"
+    implementation("androidx.room:room-runtime:$roomVersion")
+    annotationProcessor("androidx.room:room-compiler:$roomVersion")
+    kapt("androidx.room:room-compiler:$roomVersion")
 
 }
