@@ -12,8 +12,8 @@
 + Room
 + Coroutine
 + Retrofit - RxJava
-- Dagger - Hilt
-- Koin
++ Dagger - Hilt
++ Koin
 - Compose
 - Flow
 - Test
