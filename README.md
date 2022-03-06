@@ -14,6 +14,7 @@
 + Retrofit - RxJava
 + Dagger - Hilt
 + Koin
-- Compose
-- Flow
++ Compose
++ Flow
++ Recyclerview
 - Test
