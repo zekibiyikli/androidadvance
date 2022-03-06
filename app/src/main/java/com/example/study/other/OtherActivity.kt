@@ -6,6 +6,7 @@ import com.bumptech.glide.Glide
 import com.example.study.R
 import com.example.study.databinding.ActivityLivedataBinding
 import com.example.study.databinding.ActivityOtherBinding
+import com.squareup.picasso.Picasso
 
 class OtherActivity : AppCompatActivity() {
 
@@ -18,11 +19,21 @@ class OtherActivity : AppCompatActivity() {
         setContentView(R.layout.activity_other)
 
         initGlide()
+        initPicasso()
     }
 
     fun initGlide(){
         Glide.with(this)
             .load(imageUrl)
+            .centerCrop()
+            .placeholder(R.drawable.ic_launcher_foreground)
+            .into(binding.imgGLide)
+    }
+    fun initPicasso(){
+        Picasso.get()
+            .load(imageUrl)
+            .resize(100,100)
+            .rotate(90F)
             .centerCrop()
             .placeholder(R.drawable.ic_launcher_foreground)
             .into(binding.imgGLide)
