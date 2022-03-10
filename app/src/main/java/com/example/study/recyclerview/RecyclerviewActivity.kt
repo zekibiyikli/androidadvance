@@ -3,6 +3,7 @@ package com.example.study.recyclerview
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -15,18 +16,21 @@ import dagger.hilt.android.AndroidEntryPoint
 
 class RecyclerviewActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityRecyclerviewBinding
     var changeIndex=1
     lateinit var adapter:RecyclerviewAdapter
+    lateinit var rv:RecyclerView
+    lateinit var btn:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recyclerview)
-        binding = ActivityRecyclerviewBinding.inflate(layoutInflater)
+
+        rv=findViewById(R.id.rvList)
+        btn=findViewById(R.id.btnChange)
 
         initList(true)
 
-        binding.btnChange.setOnClickListener {
+        btn.setOnClickListener {
             if (changeIndex==3){
                 changeIndex=1
             }else{
@@ -46,10 +50,10 @@ class RecyclerviewActivity : AppCompatActivity() {
         }else{
             layoutManager=LinearLayoutManager(this)
         }
-        binding.rvList.layoutManager=layoutManager
+        rv.layoutManager=layoutManager
         if (isFirst){
             adapter=RecyclerviewAdapter(list,this,::onItemClickListener)
-            binding.rvList.adapter=adapter
+            rv.adapter=adapter
         }
     }
 

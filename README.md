@@ -19,4 +19,5 @@
 + Recyclerview
 + Scope functions
 + WorkManager
++ AlertDialog
 - Test

@@ -1,5 +1,7 @@
 package com.example.study.koin
 
+import android.view.LayoutInflater
+import com.example.study.databinding.ActivityAlertDialogBinding
 import io.reactivex.schedulers.Schedulers.single
 import org.koin.dsl.module
 
@@ -8,6 +10,11 @@ val appModule = module {
     single<HelloRepository> { HelloRepositoryImpl() }
     // Simple Presenter Factory
     factory { MySimplePresenter(get()) }
+
+    factory { (layoutInflater: LayoutInflater)->
+        ActivityAlertDialogBinding.inflate(layoutInflater)
+    }
+
 }
 
 /*
