@@ -17,4 +17,6 @@
 + Compose
 + Flow
 + Recyclerview
++ Scope functions
++ WorkManager
 - Test
