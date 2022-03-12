@@ -128,5 +128,7 @@ dependencies {
     implementation "androidx.work:work-multiprocess:$work_version"// optional - Multiprocess support
     //Exoplayer
     implementation 'com.google.android.exoplayer:exoplayer:2.15.0'
+    //FAB
+    implementation 'com.github.clans:fab:1.6.2'
 
 }
