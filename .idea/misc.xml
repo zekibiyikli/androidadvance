@@ -3,10 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/drawable/alert_dialog_background.xml" value="0.3558974358974359" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_alert_dialog.xml" value="0.275" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_exoplayer.xml" value="0.25" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_flow.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_messages.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_other.xml" value="0.321875" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_recyclerview.xml" value="0.25" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_room.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/content_navigation_drawer.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/custom_exoplayer_controller2.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/custom_explayer_controller.xml" value="0.22" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/dialog_custom.xml" value="0.3453125" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/dialog_messages.xml" value="0.33" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_navigationdrawer1.xml" value="0.2796875" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/item_recyclerview.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/menu/activity_main_drawer.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/menu/navigation_drawer.xml" value="0.2796875" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/app/src/main/res/layout/activity_databinding.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/app/src/main/res/layout/activity_extensions.xml" value="0.17291666666666666" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/app/src/main/res/layout/activity_livedata.xml" value="0.38697916666666665" />

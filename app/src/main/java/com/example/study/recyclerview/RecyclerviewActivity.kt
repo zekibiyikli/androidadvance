@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.study.R
+import com.example.study.databinding.ActivityMessagesBinding
 import com.example.study.databinding.ActivityRecyclerviewBinding
 import com.example.study.recyclerview.adapter.RecyclerviewAdapter
 import com.example.study.recyclerview.model.RecyclerviewModel
@@ -18,19 +19,17 @@ class RecyclerviewActivity : AppCompatActivity() {
 
     var changeIndex=1
     lateinit var adapter:RecyclerviewAdapter
-    lateinit var rv:RecyclerView
-    lateinit var btn:Button
+    private lateinit var binding: ActivityRecyclerviewBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_recyclerview)
+        binding = ActivityRecyclerviewBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        rv=findViewById(R.id.rvList)
-        btn=findViewById(R.id.btnChange)
 
         initList(true)
 
-        btn.setOnClickListener {
+        binding.btnChange.setOnClickListener {
             if (changeIndex==3){
                 changeIndex=1
             }else{
@@ -50,10 +49,10 @@ class RecyclerviewActivity : AppCompatActivity() {
         }else{
             layoutManager=LinearLayoutManager(this)
         }
-        rv.layoutManager=layoutManager
+        binding.rvList.layoutManager=layoutManager
         if (isFirst){
             adapter=RecyclerviewAdapter(list,this,::onItemClickListener)
-            rv.adapter=adapter
+            binding.rvList.adapter=adapter
         }
     }
 

@@ -20,4 +20,7 @@
 + Scope functions
 + WorkManager
 + AlertDialog
++ Exoplayer
++ NavigationDrawer
++ Messages
 - Test
