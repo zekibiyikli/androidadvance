@@ -13,12 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Study">
         <activity
-            android:name=".bottomnavigation.BottomNavigationActivity"
+            android:name=".viewpager.ViewPagerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bottomnavigation.BottomNavigationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity

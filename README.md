@@ -24,4 +24,5 @@
 + NavigationDrawer
 + Messages
 + BottomNavigationView
++ ViewPager
 - Test
