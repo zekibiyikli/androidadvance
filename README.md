@@ -23,4 +23,5 @@
 + Exoplayer
 + NavigationDrawer
 + Messages
++ BottomNavigationView
 - Test

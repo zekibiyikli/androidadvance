@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bottom1"
+        android:icon="@drawable/bottomnavigation1_selector"
+        android:title="@string/title_bottomnavigation1" />
+
+    <item
+        android:id="@+id/navigation_bottom2"
+        android:icon="@drawable/bottomnavigation2_selector"
+        android:title="@string/title_bottomnavigation2" />
+
+    <item
+        android:id="@+id/navigation_bottom3"
+        android:icon="@drawable/bottomnavigation3_selector"
+        android:title="@string/title_bottomnavigation3" />
+
+</menu>

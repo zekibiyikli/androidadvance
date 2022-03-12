@@ -11,4 +11,7 @@
     <string name="menu_drawer1">Drawer 1</string>
     <string name="menu_drawer2">Drawer 2</string>
     <string name="menu_drawer3">Drawer 3</string>
+    <string name="title_bottomnavigation1">bn1</string>
+    <string name="title_bottomnavigation2">bn2</string>
+    <string name="title_bottomnavigation3">bn3</string>
 </resources>
