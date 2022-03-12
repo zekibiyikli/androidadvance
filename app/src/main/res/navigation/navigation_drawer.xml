@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_drawer1">
+
+    <fragment
+        android:id="@+id/nav_drawer1"
+        android:name="com.example.study.navigationdrawer.ui.navigationdrawer1.NavigationDrawer1Fragment"
+        android:label="@string/menu_drawer1"
+        tools:layout="@layout/fragment_navigationdrawer1" />
+
+    <fragment
+        android:id="@+id/nav_drawer2"
+        android:name="com.example.study.navigationdrawer.ui.navigationdrawer2.NavigationDrawer2Fragment"
+        android:label="@string/menu_drawer2"
+        tools:layout="@layout/fragment_navigationdrawer2" />
+
+    <fragment
+        android:id="@+id/nav_drawer3"
+        android:name="com.example.study.navigationdrawer.ui.navigationdrawer3.NavigationDrawer3Fragment"
+        android:label="@string/menu_drawer3"
+        tools:layout="@layout/fragment_navigationdrawer3" />
+
+    <fragment
+        android:id="@+id/nav_drawer4"
+        android:name="com.example.study.navigationdrawer.ui.navigationdrawer1.NavigationDrawer1Fragment"
+        android:label="@string/menu_drawer1"
+        tools:layout="@layout/fragment_navigationdrawer1" />
+
+    <fragment
+        android:id="@+id/nav_drawer5"
+        android:name="com.example.study.navigationdrawer.ui.navigationdrawer2.NavigationDrawer2Fragment"
+        android:label="@string/menu_drawer2"
+        tools:layout="@layout/fragment_navigationdrawer2" />
+
+    <fragment
+        android:id="@+id/nav_drawer6"
+        android:name="com.example.study.navigationdrawer.ui.navigationdrawer3.NavigationDrawer3Fragment"
+        android:label="@string/menu_drawer3"
+        tools:layout="@layout/fragment_navigationdrawer3" />
+
+</navigation>
