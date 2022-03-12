@@ -122,4 +122,7 @@ dependencies {
     implementation("androidx.work:work-gcm:$work_version")// optional - GCMNetworkManager support
     androidTestImplementation("androidx.work:work-testing:$work_version")// optional - Test helpers
     implementation "androidx.work:work-multiprocess:$work_version"// optional - Multiprocess support
+    //Exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.15.0'
+
 }
