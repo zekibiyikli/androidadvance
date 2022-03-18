@@ -14,7 +14,8 @@ class MethodsActivity : AppCompatActivity() {
 
         //strings()
         //ints()
-        floats()
+        //floats()
+        doubles()
     }
 
     fun strings(){
@@ -73,6 +74,21 @@ class MethodsActivity : AppCompatActivity() {
         baseFloat.times(5F)         // 50.0 => çarpma
         baseFloat.unaryMinus()      // -10.0 => negatifi
         baseFloat.unaryPlus()       // 10.0 => pozitifi
+    }
+
+    fun doubles(){
+        var baseDouble=10.0
+
+        baseDouble.compareTo(5.0)       // 1 => karşılaştırır aynıysa 0 büyükse 1 küçükse -1
+        baseDouble.dec()                // 9.0 => bir azaltma
+        baseDouble.div(5.0)             // 2.0 => bölme
+        baseDouble.inc()                // 11.0 => arttırma
+        baseDouble.minus(5.0)           // 5.0 => çıkarma
+        baseDouble.plus(5.0)            // 15.0 => ekleme
+        baseDouble.rem(5.0)             // 0.0 => bölümden kalan
+        baseDouble.times(5.0)           // 50.0 => çarpma
+        baseDouble.unaryMinus()         // -10.0 => negatifi
+        baseDouble.unaryPlus()          // 10.0 => pozitifi
 
     }
 }
