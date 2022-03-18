@@ -15,7 +15,8 @@ class MethodsActivity : AppCompatActivity() {
         //strings()
         //ints()
         //floats()
-        doubles()
+        //doubles()
+        booleans()
     }
 
     fun strings(){
@@ -89,6 +90,14 @@ class MethodsActivity : AppCompatActivity() {
         baseDouble.times(5.0)           // 50.0 => çarpma
         baseDouble.unaryMinus()         // -10.0 => negatifi
         baseDouble.unaryPlus()          // 10.0 => pozitifi
+    }
 
+    fun booleans(){
+        var baseBoolean=true
+
+        baseBoolean.and(false)  // false => AND operatörü
+        baseBoolean.not()       // false => değili
+        baseBoolean.or(false)   // true => OR operatörü
+        baseBoolean.xor(false)  // true => XOR operatörü
     }
 }
