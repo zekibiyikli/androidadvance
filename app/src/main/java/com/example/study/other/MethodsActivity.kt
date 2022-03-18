@@ -16,7 +16,8 @@ class MethodsActivity : AppCompatActivity() {
         //ints()
         //floats()
         //doubles()
-        booleans()
+        longs()
+        //booleans()
     }
 
     fun strings(){
@@ -90,6 +91,28 @@ class MethodsActivity : AppCompatActivity() {
         baseDouble.times(5.0)           // 50.0 => çarpma
         baseDouble.unaryMinus()         // -10.0 => negatifi
         baseDouble.unaryPlus()          // 10.0 => pozitifi
+    }
+
+    fun longs(){
+        var baseLong=10L
+
+        baseLong.plus(5L)           // 15 => ekleme
+        baseLong.minus(5L)          // 5 => çıkartma
+        baseLong.dec()              // 9 => bir azaltma
+        baseLong.inc()              // 11 => bir arttırma
+        baseLong.times(5L)          // 50 => çarpma
+        baseLong.unaryMinus()       // -10 => negatifi
+        baseLong.unaryPlus()        // 10 => pozitifi
+        baseLong.and(5L)            // 0 => AND OPERATION
+        baseLong.compareTo(5L)      // 1 => karşılaştırır aynıysa 0 büyükse 1 küçükse -1
+        baseLong.div(5L)            // 2 => bölme
+        baseLong.inv()              // -11 => bitleri ters çevirir
+        baseLong.or(5L)             // 15  => OR OPERATION
+        baseLong.rangeTo(5L)        // 10..5 => aralık ayarlama
+        baseLong.rem(5L)            // 0 => bölümden kalan
+        baseLong.shl(5)             // 320 => bitcount değeri ile sola kaydırır
+        baseLong.ushr(5)            // 0 => en soldaki bitleri sıfırlarla doldurarak bitCount sayısı kadar sağa kaydırır.
+        baseLong.xor(5L)            // 15 => XOR OPERATION
     }
 
     fun booleans(){
