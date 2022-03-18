@@ -35,6 +35,7 @@ class OtherActivity : AppCompatActivity() {
             .centerCrop()
             .into(binding.imgGLide)
     }
+
     fun initPicasso(){
         Picasso.get()
             .load(imageUrl)
@@ -44,6 +45,7 @@ class OtherActivity : AppCompatActivity() {
             .placeholder(R.drawable.ic_launcher_foreground)
             .into(binding.imgPicasso)
     }
+
     fun initLottie(){
         btnLottie.setAnimation("buynow.json")
         btnLottie.setOnClickListener {
@@ -59,4 +61,6 @@ class OtherActivity : AppCompatActivity() {
             }, 3000)
         }
     }
+
+
 }
