@@ -16,8 +16,9 @@ class MethodsActivity : AppCompatActivity() {
         //ints()
         //floats()
         //doubles()
-        longs()
+        //longs()
         //booleans()
+        arraylists()
     }
 
     fun strings(){
@@ -122,5 +123,39 @@ class MethodsActivity : AppCompatActivity() {
         baseBoolean.not()       // false => değili
         baseBoolean.or(false)   // true => OR operatörü
         baseBoolean.xor(false)  // true => XOR operatörü
+    }
+
+    fun arraylists(){
+        var baseArrayList= arrayListOf("test1","test2","test3","test4","test5","test6","test7","test8","test9","test10")
+
+        baseArrayList[0]                // ilk değeri getirir
+        baseArrayList.get(0)            // ilk değeri getirir
+        baseArrayList.removeAt(0)       // ilk değeri siler
+        baseArrayList.remove("test4")   // "test4" değerini siler
+        baseArrayList.set(0,"test4")    // 0. indexe "test4" değerini atar
+        baseArrayList.elementAt(0)      // 0. indexteki değeri getirir
+        baseArrayList.add("test6")      // "test6" değerini ekler
+        baseArrayList.random()          // rastgele değer getirir
+        baseArrayList.removeFirst()     // ilk değeri siler
+        baseArrayList.isNullOrEmpty()   // boş veya null kontrolü yapar
+        baseArrayList.removeLast()      // son değeri siler
+
+        baseArrayList.forEach {
+            Log.e("Zeki",it)            // listedeki elemanları sırayla getirir
+        }
+
+        baseArrayList.filter {
+            it.equals("test1")          // listeyi filtreler
+        }
+
+        baseArrayList.map {
+            it.equals("test1")          // listeyi istenilen şeye göre mapler mesela burada equals kontrolü olduğu için boolean listesi döner
+        }
+
+        baseArrayList.sortBy {
+            it                          // listeyi sıralar
+        }
+
+
     }
 }
