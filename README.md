@@ -26,5 +26,5 @@
 + BottomNavigationView
 + ViewPager
 + FloatingActionButton
-+ Methods (string,int)
++ Methods (string,int,float)
 - Test

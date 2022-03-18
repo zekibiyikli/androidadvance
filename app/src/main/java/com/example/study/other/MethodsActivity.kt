@@ -13,7 +13,8 @@ class MethodsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_methods)
 
         //strings()
-        ints()
+        //ints()
+        floats()
     }
 
     fun strings(){
@@ -40,21 +41,38 @@ class MethodsActivity : AppCompatActivity() {
     fun ints(){
         var baseInt=10
 
-        Log.e("Zeki_8",baseInt.plus(5).toString())       // 15 => Ekleme
-        Log.e("Zeki_6",baseInt.minus(5).toString())      // 5 => çıkartma
-        Log.e("Zeki_3",baseInt.dec().toString())         // 9 => bir azaltma
-        Log.e("Zeki_12",baseInt.times(5).toString())     // 50 => çarpma
-        Log.e("Zeki_13",baseInt.unaryMinus().toString()) // -10 => negatifi döndürür
-        Log.e("Zeki_14",baseInt.unaryPlus().toString())  // 10 => pozitifi döndürür
-        Log.e("Zeki_1",baseInt.and(5).toString())        // 0 => AND OPERATION
-        Log.e("Zeki_2",baseInt.compareTo(5).toString())  // 1 => karşılaştırır aynıysa 0 büyükse 1 küçükse -1
-        Log.e("Zeki_4",baseInt.div(5).toString())        // 2 => bölme
-        Log.e("Zeki_5",baseInt.inv().toString())         // -11 => bitleri ters çevirir
-        Log.e("Zeki_7",baseInt.or(5).toString())         // 15  => OR OPERATION
-        Log.e("Zeki_9",baseInt.rangeTo(5).toString())    // 10..5 => aralık ayarlama
-        Log.e("Zeki_10",baseInt.rem(5).toString())       // 0 => bölümden kalan
-        Log.e("Zeki_11",baseInt.shl(5).toString())       // 320 => bitcount değeri ile sola kaydırır
-        Log.e("Zeki_15",baseInt.ushr(5).toString())      // 0 => en soldaki bitleri sıfırlarla doldurarak bitCount sayısı kadar sağa kaydırır.
-        Log.e("Zeki_16",baseInt.xor(5).toString())       //15 => XOR OPERATION
+        baseInt.plus(5)         // 15 => ekleme
+        baseInt.minus(5)        // 5 => çıkartma
+        baseInt.dec()           // 9 => bir azaltma
+        baseInt.inc()           // 11 => bir arttırma
+        baseInt.times(5)        // 50 => çarpma
+        baseInt.unaryMinus()    // -10 => negatifi
+        baseInt.unaryPlus()     // 10 => pozitifi
+        baseInt.and(5)          // 0 => AND OPERATION
+        baseInt.compareTo(5)    // 1 => karşılaştırır aynıysa 0 büyükse 1 küçükse -1
+        baseInt.div(5)          // 2 => bölme
+        baseInt.inv()           // -11 => bitleri ters çevirir
+        baseInt.or(5)           // 15  => OR OPERATION
+        baseInt.rangeTo(5)      // 10..5 => aralık ayarlama
+        baseInt.rem(5)          // 0 => bölümden kalan
+        baseInt.shl(5)          // 320 => bitcount değeri ile sola kaydırır
+        baseInt.ushr(5)         // 0 => en soldaki bitleri sıfırlarla doldurarak bitCount sayısı kadar sağa kaydırır.
+        baseInt.xor(5)          // 15 => XOR OPERATION
+    }
+
+    fun floats(){
+        var baseFloat=10F
+
+        baseFloat.compareTo(5F)     // 1 => karşılaştırır aynıysa 0 büyükse 1 küçükse -1
+        baseFloat.dec()             // 9.0 => bir azaltma
+        baseFloat.div(5F)           // 2.0 => bölme
+        baseFloat.inc()             // 11.0 => arttırma
+        baseFloat.minus(5F)         // 5.0 => çıkarma
+        baseFloat.plus(5F)          // 15.0 => ekleme
+        baseFloat.rem(5F)           // 0.0 => bölümden kalan
+        baseFloat.times(5F)         // 50.0 => çarpma
+        baseFloat.unaryMinus()      // -10.0 => negatifi
+        baseFloat.unaryPlus()       // 10.0 => pozitifi
+
     }
 }
