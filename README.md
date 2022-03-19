@@ -27,4 +27,5 @@
 + ViewPager
 + FloatingActionButton
 + Methods (string,int,float,double,boolean,long,ArrayList)
++ SlidingUpPanel
 - Test
