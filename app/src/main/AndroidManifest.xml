@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Study">
         <activity
+            android:name=".test.TestActivity"
+            android:exported="false" />
+        <activity
             android:name=".slidinguppanel.SlidingUpPanelActivity"
             android:exported="true">
             <intent-filter>
