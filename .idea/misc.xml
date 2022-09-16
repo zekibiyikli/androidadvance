@@ -22,8 +22,11 @@
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_recyclerview.xml" value="0.25" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_room.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_sliding_up_panel.xml" value="0.2444078947368421" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_testing_artbook.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_view_pager.xml" value="0.19046052631578947" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/activity_work_manager.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/art_row.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/badge_bottomnavigation.xml" value="0.19046052631578947" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/content_navigation_drawer.xml" value="0.2796875" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/custom_exoplayer_controller2.xml" value="0.2796875" />
@@ -34,13 +37,18 @@
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_bottomnavigation2.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_bottomnavigation3.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_navigationdrawer1.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_testing_art_details.xml" value="0.2444078947368421" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_testing_arts.xml" value="0.2444078947368421" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_testing_image_api.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_viewpager1.xml" value="0.19046052631578947" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_viewpager2.xml" value="0.19046052631578947" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/fragment_viewpager3.xml" value="0.19046052631578947" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/item_recyclerview.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/item_viewpager.xml" value="0.19046052631578947" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.2796875" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/testing_art_row.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/testing_fragment_arts.xml" value="0.2444078947368421" />
+        <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/layout/testing_image_row.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/menu/activity_main_drawer.xml" value="0.2796875" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2444078947368421" />
         <entry key="..\:/Users/Zeki/AndroidStudioProjects/Study/androidadvance/app/src/main/res/menu/navigation_drawer.xml" value="0.2796875" />
